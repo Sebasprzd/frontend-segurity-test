@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import './index.css'; 
-import SignUp from './pages/SignUp';
+import SignUp from './pages/SignUp/SignUp';
 import CodeVerification from './pages/CodeVerification';
 import Roles from './pages/Roles';
 import Permissions from './pages/Permissions';
