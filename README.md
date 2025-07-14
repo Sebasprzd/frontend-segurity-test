@@ -66,8 +66,9 @@ frontend_segurity/
 ```
 
 
-## Completo:
+## Estructura completa del proyecto:
 
+```
 frontend_segurity/
 ├── index.html                 → Documento raíz con el <div id="root">
 ├── package.json               → Scripts y dependencias
@@ -92,7 +93,7 @@ frontend_segurity/
 │   ├── context/               → Estado global (auth, etc.) [vacío]
 │   ├── services/              → Lógica para conectar con API Python/Backend
 │   └── hooks/                 → Funciones reutilizables [vacío]
-
+```
 
 -   **`src/components`**: Coloca aquí componentes que se puedan reutilizar en varias partes de la aplicación (botones, modales, inputs, etc.). El `Header`, `Footer` y `Layout` son buenos ejemplos.
 -   **`src/pages`**: Cada archivo aquí es una página completa de la aplicación que se asocia a una ruta. Por ejemplo, `Home.tsx` es lo que se ve en la ruta `/`.
